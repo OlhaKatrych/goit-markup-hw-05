@@ -726,9 +726,6 @@ justify-content: center;
     height: 100%;
     padding: 40px 32px 0;
     background-color: var(--color-iris);
-}
-
-.overlay-text {
 
     font-weight: 400;
     font-size: 16px;
@@ -736,6 +733,8 @@ justify-content: center;
     letter-spacing: 0.02em;
     color: var(--color-cloud);
 }
+
+
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
