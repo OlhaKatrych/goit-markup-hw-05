@@ -133,8 +133,33 @@ body {
 
 .list-link{
 
+    position: relative;
     color: #2E2F42;
     padding: 24px 0;
+}
+
+.list-link::after {
+
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    
+
+}
+
+.list-link.active {
+
+    color: var(--color-ocean);
+}
+
+.list-link.active::after{
+
+    background-color: var(--color-ocean);
 }
 
 .list-link:hover,
