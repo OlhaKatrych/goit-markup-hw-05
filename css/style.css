@@ -886,5 +886,5 @@ justify-content: center;
 .modal-close-icon:hover,
 .modal-close-icon:focus {
 
-    fill: var(--color-white);
+    fill: #FFFFFF;
 }
