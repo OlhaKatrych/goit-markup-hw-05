@@ -761,10 +761,10 @@ justify-content: center;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-thumb:hover.overlay,
-.portfolio-thumb:focus.overlay {
+.portfolio-thumb:hover .overlay,
+.portfolio-thumb:focus .overlay {
 
-    transform: translateY(0%);
+    transform: translateY(0);
 }
 
 
