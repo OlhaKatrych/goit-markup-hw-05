@@ -825,6 +825,13 @@ justify-content: center;
     height: 100%;
 }
 
+.is-hidden {
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .modal {
 
     position: absolute;
